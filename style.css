@@ -5,36 +5,38 @@ html, body {
     margin: 0;
 }
 
-.page {
-    justify-content: center;
+article {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
-.heading {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
     font-size: 18pt;
-    color: #f8f618;
 }
 
-.links {
+h1, p, span {
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
+}
+
+p, span {
     font-size: 14pt;
 }
 
-.links p {
-    margin: 2px;
+ul {
+    margin-top: 40px;
 }
 
-.links a {
+a {
     color: #e24600;
     text-decoration: none;
 }
